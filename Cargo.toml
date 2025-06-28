@@ -1,0 +1,37 @@
+[package]
+name = "rust_spike_model_emnist"
+version = "1.0.0"
+edition = "2021"
+authors = ["Dean Horak <dean.horak@gmail.com>"]
+description = "Biologically-inspired neural networks achieving 99.46% accuracy on EMNIST letters classification"
+license = "MIT"
+repository = "https://github.com/deanhorak/rust_spike_model_emnist"
+keywords = ["neural-networks", "biologically-inspired", "htm", "ctm", "emnist", "spike-patterns"]
+categories = ["science", "algorithms", "machine-learning"]
+readme = "README.md"
+
+[dependencies]
+rand = "0.8"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rayon = "1.7"
+byteorder = "1.4"
+flate2 = "1.0"
+thiserror = "1.0"
+reqwest = { version = "0.11", features = ["blocking"] }
+
+[dev-dependencies]
+criterion = "0.5"
+
+[[bin]]
+name = "final_98_percent_breakthrough"
+path = "src/bin/final_98_percent_breakthrough.rs"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+
+[profile.dev]
+opt-level = 1

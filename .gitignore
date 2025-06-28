@@ -1,0 +1,54 @@
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Data files
+/data/
+*.idx3-ubyte
+*.idx1-ubyte
+
+# Logs
+*.log
+/logs/
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# Results and models (keep only breakthrough results)
+/models/*.json
+!/models/BREAKTHROUGH_EMNIST_Results_*.json
+
+# Config backups
+/config/backups/
+
+# Optimization data
+optimization_data_*.csv
+
+# Experiments
+/experiments/
+
+# Visualizations
+/visualizations/
+
+# Backup files
+*_backup.*
+*.bak

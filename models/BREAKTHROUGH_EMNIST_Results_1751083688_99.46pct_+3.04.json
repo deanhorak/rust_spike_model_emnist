@@ -1,0 +1,182 @@
+{
+  "baseline_96_4_percent": 96.42,
+  "breakthrough_metrics": {
+    "ensemble_agreement_rate": 0.9648717948717949,
+    "high_confidence_accuracy": 99.89854582346973,
+    "low_confidence_recovery_rate": 92.3076923076923,
+    "weak_class_improvements": {
+      "class_0": 2.6666666666666714,
+      "class_1": 2.0,
+      "class_10": 15.0,
+      "class_11": 4.0,
+      "class_12": 4.0,
+      "class_13": 4.0,
+      "class_14": 4.0,
+      "class_15": 4.0,
+      "class_16": 2.6666666666666714,
+      "class_17": 2.6666666666666714,
+      "class_18": 4.0,
+      "class_19": 2.6666666666666714,
+      "class_2": 4.0,
+      "class_20": 4.0,
+      "class_21": 2.6666666666666714,
+      "class_22": 4.0,
+      "class_23": 2.6666666666666714,
+      "class_24": 0.6666666666666714,
+      "class_25": 4.0,
+      "class_3": 4.0,
+      "class_4": 14.333333333333329,
+      "class_5": 15.0,
+      "class_6": 10.0,
+      "class_7": 4.0,
+      "class_8": 4.0,
+      "class_9": 4.0
+    }
+  },
+  "breakthrough_statistics": {
+    "max_class_accuracy": 100.0,
+    "mean_per_class_accuracy": 99.46153846153844,
+    "min_class_accuracy": 96.66666666666667,
+    "performance_range": 3.3333333333333286,
+    "standard_deviation": 0.8477064233239234
+  },
+  "breakthrough_target": 98.0,
+  "dataset": "Ultimate_Breakthrough_EMNIST_Letters",
+  "improvement_over_baseline": 3.041538461538451,
+  "method": "Ultimate_Biologically_Inspired_CTM_HTM_Ensemble",
+  "overall_accuracy": 99.46153846153845,
+  "per_class_results": {
+    "A": {
+      "accuracy": 98.66666666666667,
+      "correct": 148,
+      "total": 150
+    },
+    "B": {
+      "accuracy": 98.0,
+      "correct": 147,
+      "total": 150
+    },
+    "C": {
+      "accuracy": 100.0,
+      "correct": 150,
+      "total": 150
+    },
+    "D": {
+      "accuracy": 100.0,
+      "correct": 150,
+      "total": 150
+    },
+    "E": {
+      "accuracy": 99.33333333333333,
+      "correct": 149,
+      "total": 150
+    },
+    "F": {
+      "accuracy": 100.0,
+      "correct": 150,
+      "total": 150
+    },
+    "G": {
+      "accuracy": 100.0,
+      "correct": 150,
+      "total": 150
+    },
+    "H": {
+      "accuracy": 100.0,
+      "correct": 150,
+      "total": 150
+    },
+    "I": {
+      "accuracy": 100.0,
+      "correct": 150,
+      "total": 150
+    },
+    "J": {
+      "accuracy": 100.0,
+      "correct": 150,
+      "total": 150
+    },
+    "K": {
+      "accuracy": 100.0,
+      "correct": 150,
+      "total": 150
+    },
+    "L": {
+      "accuracy": 100.0,
+      "correct": 150,
+      "total": 150
+    },
+    "M": {
+      "accuracy": 100.0,
+      "correct": 150,
+      "total": 150
+    },
+    "N": {
+      "accuracy": 100.0,
+      "correct": 150,
+      "total": 150
+    },
+    "O": {
+      "accuracy": 100.0,
+      "correct": 150,
+      "total": 150
+    },
+    "P": {
+      "accuracy": 100.0,
+      "correct": 150,
+      "total": 150
+    },
+    "Q": {
+      "accuracy": 98.66666666666667,
+      "correct": 148,
+      "total": 150
+    },
+    "R": {
+      "accuracy": 98.66666666666667,
+      "correct": 148,
+      "total": 150
+    },
+    "S": {
+      "accuracy": 100.0,
+      "correct": 150,
+      "total": 150
+    },
+    "T": {
+      "accuracy": 98.66666666666667,
+      "correct": 148,
+      "total": 150
+    },
+    "U": {
+      "accuracy": 100.0,
+      "correct": 150,
+      "total": 150
+    },
+    "V": {
+      "accuracy": 98.66666666666667,
+      "correct": 148,
+      "total": 150
+    },
+    "W": {
+      "accuracy": 100.0,
+      "correct": 150,
+      "total": 150
+    },
+    "X": {
+      "accuracy": 98.66666666666667,
+      "correct": 148,
+      "total": 150
+    },
+    "Y": {
+      "accuracy": 96.66666666666667,
+      "correct": 145,
+      "total": 150
+    },
+    "Z": {
+      "accuracy": 100.0,
+      "correct": 150,
+      "total": 150
+    }
+  },
+  "samples_tested": 3900,
+  "total_time_seconds": 1740.751691378
+}
