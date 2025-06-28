@@ -39,3 +39,7 @@ panic = "abort"
 
 [profile.dev]
 opt-level = 1
+
+[[bin]]
+name = "parallel_simplified_breakthrough"
+path = "src/bin/parallel_simplified_breakthrough.rs"
