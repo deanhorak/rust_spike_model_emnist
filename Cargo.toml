@@ -27,6 +27,10 @@ criterion = "0.5"
 name = "final_98_percent_breakthrough"
 path = "src/bin/final_98_percent_breakthrough.rs"
 
+[[bin]]
+name = "simplified_breakthrough"
+path = "src/bin/simplified_breakthrough.rs"
+
 [profile.release]
 opt-level = 3
 lto = true
