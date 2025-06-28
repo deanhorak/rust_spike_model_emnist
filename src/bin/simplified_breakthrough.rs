@@ -23,7 +23,6 @@ fn main() {
     println!("   ✅ Continuous Thought Machine (CTM) concepts");
     println!("   ✅ Advanced spike pattern analysis");
     println!("   ✅ 5-method ensemble classification");
-    println!("   ✅ Weak class recovery mechanisms");
     println!("   ❌ Temporal Memory REMOVED (provided {:.1}% improvement)", TEMPORAL_MEMORY_IMPROVEMENT);
     println!();
     
@@ -44,7 +43,6 @@ fn main() {
     println!("🎯 Key Achievements:");
     println!("   ✅ First biologically-inspired neural network to exceed 98% on EMNIST letters");
     println!("   ✅ 96.5% ensemble agreement rate");
-    println!("   ✅ Weak class recovery (+13.6% average improvement)");
     println!("   ✅ Publication-ready results for top-tier venues");
     println!("   ✅ SIMPLIFIED: Removed non-contributing components");
     println!("   ✅ CLEANER: Focus on what actually works");

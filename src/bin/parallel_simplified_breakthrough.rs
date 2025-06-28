@@ -32,7 +32,6 @@ fn main() {
     println!("   ✅ Continuous Thought Machine (CTM) concepts (parallel)");
     println!("   ✅ Advanced spike pattern analysis (multi-threaded)");
     println!("   ✅ 5-method ensemble classification (parallel voting)");
-    println!("   ✅ Weak class recovery mechanisms (concurrent)");
     println!("   ❌ Temporal Memory REMOVED (provided {:.1}% improvement)", TEMPORAL_MEMORY_IMPROVEMENT);
     println!();
     
@@ -168,7 +167,6 @@ fn main() {
     println!("   • 24-core spatial pooler processing");
     println!("   • Parallel feature extraction (40+ dimensions)");
     println!("   • Concurrent ensemble voting (5 methods)");
-    println!("   • Multi-threaded weak class recovery");
     println!("   • Optimized memory access patterns");
     println!("   • Cache-friendly data structures");
     println!();

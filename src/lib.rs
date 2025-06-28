@@ -99,7 +99,7 @@ pub fn get_breakthrough_components() -> Vec<&'static str> {
         "Spatial pooler with 8% sparsity",
         "40+ dimensional feature extraction", 
         "5-method ensemble classification",
-        "Weak class recovery mechanisms",
+        
         "Ultra-fine discrimination patterns"
     ]
 }
